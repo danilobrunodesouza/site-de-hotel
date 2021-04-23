@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderModule } from './header/header.module';
 import { LoginModule } from './login/login.module';
+import { TemplateCentralizadoResponsivoComponent } from './shared/components/templates/template-centralizado-responsivo/template-centralizado-responsivo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+  
   ],
   imports: [
     BrowserModule,
